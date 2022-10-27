@@ -1,0 +1,204 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+.body{
+  font-family: 'Raleway', sans-serif;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/* barra de busqueda ///////////////////////////*/
+.s_b_des_desactivar{  /* esta clase se debe desactivar con togged*/
+  display: none;
+}
+.size_exit{
+  width: 30px;
+  height: 30px;
+  margin-top: 1rem;
+}
+.size_exit:hover{
+  background-color: #837a7a;
+}
+.b_bus_for{
+  border: 1px solid #6E707A;
+}
+.input_informacion{
+  background: #1E213A;
+  border: none;
+}
+.icono_busqueda{
+  width: 25px;
+  height: 25px;
+}
+.barra_ciudad{
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 90%;
+  background: #1E213A;
+  color:#6E707A; 
+  margin-top:3rem;
+}
+/*header////////////////////////////////////*/
+.header{
+  background-color: #1E213A;
+  background-image: linear-gradient(#1e213aa6,#1e213aa6),url(./imagenes/Cloud-background.png);
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position: center 5rem;
+  padding-bottom: 2rem;
+}
+/*barra de navegacion/////////////////////////////*/
+.s_h_desactivar{ /*esta clase se debe activar con togget*/
+  display: none;
+}
+.boton_buscar_nav{
+  background: #6E707A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 15px;
+}
+.boton_buscar_nav:hover{
+  background-color: #4e5063;
+}
+.seccion_header{
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 1rem;
+}
+.temperatura{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  color: #E7E7EB;
+}
+.tamaño_icon_ubicacion{
+  height: 20px;
+  width: 20px;
+}
+.main{
+  background-color: #100E1D;
+  padding-bottom: 2rem;
+}
+.buton_grados{
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}
+.buton_grados_1{
+  border-radius: 25px;
+}
+.buton_grados_2{
+  border-radius: 25px;
+}
+.titulo_tarjeta{
+  font-family:'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #E7E7EB;
+}
+.grados_1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #E7E7EB;
+}
+.grados_2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #A09FB1;
+}
+.grados_2 span{
+  color: #A09FB1;
+}
+.tar_P{
+  background-color: #1E213A;
+  height: 177px;
+}
+
+.tar_G{
+  width: 328px;
+  height: 204px;
+  background-color:#1E213A ;
+}
+.seccion_tar_G{
+  display: flex;
+  justify-content: center;
+}
+
+.tamaño_img{
+  margin-top: 2rem;
+  width: 202px;
+  height: 234px;
+  
+}
+.flecha{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+}
+.barra_humedad{
+  background: #E7E7EB;
+  border-radius: 80px;
+  width: 229px;
+  height: 8px;
+}
+.caja2{
+  border-radius: 80px;
+  height: 100%;
+  background: #E7E7EB;
+}
+
+.tamaño_h1_tG{
+  font-size: 50px;
+}
+
+.bton{
+  color: #100E1D;
+}
+.contenedor_img{
+  width: 70px;
+  height: 70px;
+}
+
+#btn_1{
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  padding: .3rem;
+}
+
+#estado_dia{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #A09FB1;
+}
+.informacion_dia span,p{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #88869D;
+}
